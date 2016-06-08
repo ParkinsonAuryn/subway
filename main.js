@@ -139,7 +139,19 @@ $(function() {
         $(".brand_desc11").fadeToggle();
     });
 
+    var juan        =   1.2 ;
+    var carlos      =   12;
+    var pablo       =   "las";
+    var escobar     =   'drugas';
 
+    var thisTakes   =   (12 - 702);
+    var soLong      =   1110;
+    var plsHelp     =   (thisTakes + soLong);
+
+
+    var first       =   "Juan";
+    var last        =   "Carlos";
+    var full        =   first + " " + last;
 
 
 });
