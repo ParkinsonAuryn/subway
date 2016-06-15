@@ -35,6 +35,7 @@
                     echo '<input type="text" value="'. $userAgent.'" id="useragent" hidden>';
                     if (logged_in()){
                         echo '<input type="text" value="'.$user_data['username'].'" id="username" hidden>';
+                        echo '<input type="text" value="'.$user_data['token']['value'].'" id="token" hidden>';
                     }
 
                     ?>
@@ -56,7 +57,7 @@
                         <!-- Navbar content -->
                         <div class="navbar-collapse collapse" id="navbar-second">
                             <div class="navbar-text">
-                                &copy; 2016. <a href="#"><?php echo $config['name'];?></a> by <?php echo $config['author'];?>
+                                &copy; 2016. <a href="#"><?php echo $config['name'];?></a>
                             </div>
 
                             <div class="navbar-text navbar-right">
@@ -81,7 +82,7 @@
                 </div>
                 <!-- /content area -->
             </div>
-            <!-- /main content -->
+            <!-- /main content (content wrapper) -->
         </div>
         <!-- /page content -->
     </div>
